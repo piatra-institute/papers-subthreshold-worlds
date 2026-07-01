@@ -1,0 +1,65 @@
+{
+  "seed": 20260701,
+  "subthreshold_summation": {
+    "M": 60,
+    "T": 400,
+    "subthreshold_window": 37,
+    "decode_r2": 0.9999999999999989,
+    "readout_var_in_window": 0.0,
+    "mean_latent_step": 1.3817212031292188,
+    "count_grew_factor": 37.0,
+    "r_decode_r2": 1.0,
+    "r_window": 37,
+    "r_count_grew": 37
+  },
+  "nontransitive_relation": {
+    "N": 1000,
+    "eps": 3,
+    "adjacent_indistinguishable": 1.0,
+    "endpoint_gap": 999.0,
+    "endpoint_ratio": 333.0,
+    "closure_classes": 1,
+    "true_classes": 1000,
+    "intransitive_frac": 0.7497492477432297,
+    "r_adjacent": 1.0,
+    "r_endpoint_ratio": 333.0,
+    "r_intransitive_pct": 75
+  },
+  "tolerance_vs_transition": {
+    "N": 2000,
+    "tight": {
+      "delta_max": 0.006249674499510416,
+      "total": 0.9999999999718725,
+      "borderline_width": 175
+    },
+    "loose": {
+      "delta_max": 0.0015624949137568733,
+      "total": 0.9961344742918525,
+      "borderline_width": 703
+    },
+    "steps_ratio": 160.00833324202884,
+    "r_delta_max": 0.0062,
+    "r_total": 1.0,
+    "r_steps_ratio": 160,
+    "r_borderline_tight": 175,
+    "r_borderline_loose": 703
+  },
+  "critical_transition": {
+    "T": 6000,
+    "flip_step": 4483,
+    "ew_stride": 25,
+    "ac1_base": 0.9038524712568147,
+    "ac1_pre": 0.9910374431843735,
+    "var_base": 0.0008545504037697767,
+    "var_pre": 0.013197399371074076,
+    "var_rise_ratio": 15.443675777174603,
+    "readout_warning": 0,
+    "slowing_lead": 1450,
+    "reservoir_lead": 198,
+    "r_ac1_base": 0.9,
+    "r_ac1_pre": 0.99,
+    "r_var_rise": 15.4,
+    "r_slowing_lead": 1450,
+    "r_reservoir_lead": 198
+  }
+}

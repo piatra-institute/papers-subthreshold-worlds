@@ -1,0 +1,9 @@
+[project]
+name = "subthreshold-worlds-sim"
+version = "0.1.0"
+description = "Latent-state accumulation under coarse-grained readout: subthreshold summation, non-transitive indistinguishability, local tolerance vs global transition, and critical-transition early warning — for Subthreshold Worlds"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]
