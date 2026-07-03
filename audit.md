@@ -18,3 +18,13 @@ Verification:
   - claims: 4 prose decimals, 0 without a matching results.json value.
   - build: clean, 0 missing-character warnings.
   - check => PASS
+
+---
+
+## 2026-07-03 — reform pass (de-oversell + de-template)
+
+Corpus reform. The paper already disclosed the sheaf/contextuality reading as "only... the honest slogan that locally adequate readouts need not glue into one global predicate" and hedged the reservoir claims. Two genuine defects.
+
+- paper/PAPER.md + metadata.yaml abstract, and §5: the R-squared of 1.0 was oversold ("holds the accumulated count so faithfully"). For a noiseless deterministic leaky integrator the state is a linear function of the accumulated input, so a linear decoder recovers it exactly by construction; the 1.0 is trivial, not a finding. Reframed to say the precision "is guaranteed by construction and is not the point; the point is qualitative, that the information the readout discards is not lost."
+- paper/PAPER.md §9: retitled "What the Architecture Does and Does Not Claim" -> "One Design, Not Five Metaphors" (subthreshold was on the templated-closer census list), taking the title from the abstract's own synthesis claim; the shared-architecture-not-ontology framing and the three limits are unchanged.
+- Verify: voice 0 errors; refs 0 missing/0 unused; claims 0 unmatched; check => PASS; synced.
